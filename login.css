@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body {
+    background-size: center;
+    background-position:center;
+    object-fit: cover;
+    background:url("images/07.jpg");
+}
+header p {
+    color: rgb(239, 232, 27);
+}
+header span{
+    color: rgb(30, 234, 98);
+}
+.img-icon{
+    width: 30%;
+}
+.bg-img {
+    height: 100vh;
+    width: 100%;
+}
+.bg-img::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(13, 12, 12, 0.174);
+}
+.content {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding:60px 32px;
+    max-width: 4rem;
+    transform: translate(-50%, -50%);
+    background: rgb(17 13 13 / 10%);
+    border: 1px solid #fff;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 6px rgba(29,29,29,0.203);
+}
+.content header {
+    color: #000;
+    font-size: 33px;
+    font-weight: 700;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.field {
+    border-radius: 8px;
+    position: relative;
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    background: rgba(255,255,255,0.94);
+}
+.field span {
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+.field input {
+    padding-left: 5px;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.space {
+    margin-top: 16px;
+}
+.show {
+    margin-right: 10px;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    display: none;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+.pass-key:valid ~ .show {
+    display: block;
+}
+.pass {
+    margin-top: 0;
+    text-align: center;
+    padding: 8px;
+}
+.pass a {
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+    font-weight:500;
+}
+.pass:hover a {
+    text-decoration: underline;
+    color: rgb(77, 41, 239);
+}
+.pass-creat-account h3{
+    margin-top: 0;
+    text-align: center;
+    padding: 8px;
+    font-weight:500;
+    font-size: 16px;
+    color: #fff;
+}
+.pass-creat-account a{
+    color: rgb(248, 246, 246);
+    text-decoration: none;
+    font-weight:500;
+    font-size: 16px;
+}
+.pass-creat-account a:hover {
+    text-decoration: underline;
+    color: rgb(77, 41, 239);
+}
+.field {
+    opacity: 0.7;
+}
+
+.field input[type="submit"] {
+    border-radius: 8px;
+    background: #15560d;
+    border: 1px solid #f3faf2;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    transition: .3s ease;
+}
+.field input[type="submit"]:hover {
+    background: #41a941f5;
+    border: 1px solid #a4a4a4f5;
+    color: #000;
+}
+.login{
+    color: #fff;
+    margin: 20px 0;
+    font-family: "Poppins", sans-serif;
+}
+i  {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
+} 
+.bg_video{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   min-width:100%;
+   min-height: 100%;
+   object-fit: cover;
+   overflow: hidden;
+}
+.wrap-icons a .icon{
+    opacity: 0.7;
+    text-decoration: none;
+    background:rgba(255, 255, 255, 0.94);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(81, 75, 75);
+    cursor: pointer;
+    display: inline-block;
+}
+.wrap-icons a .face:hover {
+    background: #fbfffbf5;
+    color: rgb(19, 144, 221);
+}
+.wrap-icons a .googl:hover{
+    background: #fbfffbf5;
+    color: rgb(233, 69, 15);
+}
+.wrap-icons a .twig:hover {
+    background: #fbfffbf5;
+    color: rgb(19, 144, 221);
+}
+.wrap-icons a .twit:hover {
+    background: #fbfffbf5;
+    color: rgb(19, 144, 221);
+}
+.icon:hover{
+    color: #fff;
+}
+
+@media (min-width:320px) {
+    body{
+        background-size: auto  100%;
+        background-position:center;
+    }
+    .content{
+        min-width: 300px;
+    }
+    .pass-creat-account h3{
+        padding: 7px;
+    }
+    .bg_video{
+        display: ;
+    }
+}
+@media (min-width:375px){
+    .content{
+        min-width: 350px;
+    }
+}
