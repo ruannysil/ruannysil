@@ -4,8 +4,6 @@
 
 # 💫 sobre mim:
 [![](https://visitcount.itsvg.in/api?id=ruannysil&icon=0&color=0)](https://visitcount.itsvg.in) <br/>
-📚I'm currently looking to acquire more knowledge in the area, to current as a good front-end programmer.<br/>
-🚀 Desenvolvedor JS apaixonado por programação, em busca de oportunidades para ingressar no mercado de trabalho e iniciar minha carreira como Dev especializado em ReactJS, Next.js, JavaScript e desenvolvimento front-end e backend. Possuo sólidos conhecimentos em ReactJS, Next.js, JavaScript, HTML, CSS, Sass e styled-components, com habilidades na construção de interfaces responsivas e interativas.
 
 Estou constantemente aprimorando minhas habilidades e focado em expandir meu conhecimento em TypeScript, React Native e desenvolvimento de backend, visando oferecer soluções ainda mais completas e eficientes.
 
